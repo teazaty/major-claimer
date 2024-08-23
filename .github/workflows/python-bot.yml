@@ -1,8 +1,8 @@
-name: Run Python Script Every 30 Minutes
+name: Run Python Script Every 5 Minutes
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Menjadwalkan setiap 30 menit
+    - cron: '*/5 * * * *'  # Menjadwalkan setiap 5 menit
   workflow_dispatch:  # Memungkinkan Anda untuk menjalankan workflow secara manual jika diperlukan
 
 jobs:
