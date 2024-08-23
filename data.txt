@@ -1,0 +1,1 @@
+query_id=AAFcg69OAAAAAFyDr043p1jP&user=%7B%22id%22%3A1320125276%2C%22first_name%22%3A%22Wanzaty%20%28Onmi.io%29%F0%9F%A6%B4%22%2C%22last_name%22%3A%22%22%2C%22username%22%3A%22wanzaty%22%2C%22language_code%22%3A%22en%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1724399136&hash=f4d4b1cf80e1892fa95e8c15e7dc13f9948830276e760def58f9b097c336eed2
