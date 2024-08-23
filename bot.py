@@ -47,7 +47,7 @@ class Major:
             data = open(self.data_file, "r").read().splitlines()
             num_acc = len(data)
             base.log(self.line)
-            base.log(f"{base.green}Numer of accounts: {base.white}{num_acc}")
+            base.log(f"{base.green}Number of accounts: {base.white}{num_acc}")
 
             for no, data in enumerate(data):
                 base.log(self.line)
@@ -76,9 +76,7 @@ class Major:
 
                         # Hold Coin
                         if self.auto_play_hold_coin:
-                            base.log(
-                                f"{base.yellow}Auto Play Hold Coin: {base.green}ON"
-                            )
+                            base.log(f"{base.yellow}Auto Play Hold Coin: {base.green}ON")
                             process_hold_coin(token=token)
                         else:
                             base.log(f"{base.yellow}Auto Play Hold Coin: {base.red}OFF")
@@ -97,10 +95,8 @@ class Major:
                 except Exception as e:
                     base.log(f"{base.red}Error: {base.white}{e}")
 
-            print()
-            wait_time = 60 * 60
-            base.log(f"{base.yellow}Wait for {int(wait_time/60)} minutes!")
-            time.sleep(wait_time)
+            base.log(f"{base.yellow}All tasks completed!")
+            break  # Exit the loop after completing all tasks
 
 
 if __name__ == "__main__":
